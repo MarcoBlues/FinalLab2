@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1508556700 source:i:\c\finallab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol_persona.h"
+
+1508554516 source:i:\c\finallab2\persona.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"persona.h"
+
+1508548534 i:\c\finallab2\persona.h
+	<stdio.h>
+	<stdlib.h>
+
+1508557076 source:i:\c\finallab2\arbol_persona.c
+	"stdlib.h"
+	"stdio.h"
+	"arbol_persona.h"
+
+1508548592 i:\c\finallab2\arbol_persona.h
+	"persona.h"
+
+1508554516 source:c:\documents and settings\m\desktop\finallab2\persona.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"persona.h"
+
+1508548534 c:\documents and settings\m\desktop\finallab2\persona.h
+	<stdio.h>
+	<stdlib.h>
+
+1508557416 source:c:\documents and settings\m\desktop\finallab2\arbol_persona.c
+	"stdlib.h"
+	"stdio.h"
+	"arbol_persona.h"
+
+1508548592 c:\documents and settings\m\desktop\finallab2\arbol_persona.h
+	"persona.h"
+
+1508602383 source:c:\documents and settings\m\desktop\finallab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol_persona.h"
+	"Fila.h"
+
+1508599399 source:c:\documents and settings\m\desktop\finallab2\fila.c
+	"Fila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1508598000 c:\documents and settings\m\desktop\finallab2\fila.h
+	"stdbool.h"
+	"listasDobles.h"
+	"persona.h"
+
+1508599532 c:\documents and settings\m\desktop\finallab2\listasdobles.h
+	"persona.h"
+
+1508597889 source:c:\documents and settings\m\desktop\finallab2\listasdobles.c
+	<stdio.h>
+	<stdlib.h>
+	"listasDobles.h"
+
