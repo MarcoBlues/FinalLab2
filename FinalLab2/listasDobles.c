@@ -133,7 +133,7 @@ persona primeroLista(nodo2 * lista) /// RETORNA LA PRIMERA PERSONA DE LA LISTA
     return primero;
 }
 
-nodo2 * InsertarEnOrdenPorTipoCliente(nodo2 * lista,nodo2 * nuevo)
+nodo2 * InsertarEnOrdenPorTipoCliente(nodo2 * lista,nodo2 * nuevo)/// inserta en la lista por el tipo de cliente
 {
     if(lista == NULL || lista->cliente.tipoCliente >= nuevo->cliente.tipoCliente)
     {
@@ -169,7 +169,7 @@ nodo2 * InsertarEnOrdenPorTipoCliente(nodo2 * lista,nodo2 * nuevo)
     return lista;
 }
 
-nodo2 * InsertarEnOrdenPorCantArticulos(nodo2 * lista,nodo2 * nuevo)
+nodo2 * InsertarEnOrdenPorCantArticulos(nodo2 * lista,nodo2 * nuevo) /// inserta en la lista en orden por la cantidad de articulos
 {
     if(lista == NULL || lista->cliente.cantArticulos >= nuevo->cliente.cantArticulos)
     {
