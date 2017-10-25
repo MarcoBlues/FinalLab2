@@ -12,6 +12,8 @@ typedef struct
 
 void inicfila(Fila * fila);
 void agregar(Fila * fila,persona dato); //agrega un elemento al final de la lista
+void agregarFilaXtipoCliente(Fila * fila,persona cliente);
+void agregarFilaXCantArticulos(Fila * fila,persona cliente) ;
 persona extraer(Fila * fila); //saca un elemento del inicio de la lista
 void mostrarFila(Fila * fila);
 void leer(Fila * fila);

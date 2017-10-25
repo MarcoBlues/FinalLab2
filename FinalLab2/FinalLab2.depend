@@ -64,3 +64,45 @@
 	<stdlib.h>
 	"listasDobles.h"
 
+1508557416 source:c:\users\familia\documents\github\finallab2\finallab2\arbol_persona.c
+	"stdlib.h"
+	"stdio.h"
+	"arbol_persona.h"
+
+1508548592 c:\users\familia\documents\github\finallab2\finallab2\arbol_persona.h
+	"persona.h"
+
+1508942343 c:\users\familia\documents\github\finallab2\finallab2\persona.h
+	<stdio.h>
+	<stdlib.h>
+
+1508946168 source:c:\users\familia\documents\github\finallab2\finallab2\fila.c
+	"Fila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1508946168 c:\users\familia\documents\github\finallab2\finallab2\fila.h
+	"stdbool.h"
+	"listasDobles.h"
+	"persona.h"
+
+1508946050 c:\users\familia\documents\github\finallab2\finallab2\listasdobles.h
+	"persona.h"
+
+1508946050 source:c:\users\familia\documents\github\finallab2\finallab2\listasdobles.c
+	<stdio.h>
+	<stdlib.h>
+	"listasDobles.h"
+
+1508942343 source:c:\users\familia\documents\github\finallab2\finallab2\persona.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"persona.h"
+
+1508946375 source:c:\users\familia\documents\github\finallab2\finallab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol_persona.h"
+	"Fila.h"
+

@@ -22,6 +22,6 @@ void cambiarDatosArchivo(char nombre[]);
 void cargarPersonasArchivo(char nombre[]);
 void leerArchivoPersonas(char nombre[]);
 void borrarPersonaArchivo(char nombre[], int id);
-
+persona agregar1Persona();
 
 #endif // PERSONA_H_INCLUDED

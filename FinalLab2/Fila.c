@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void inicfila(Fila * fila)
+void inicfila(Fila * fila) /// inicializa la fila
 {
     fila->primero = inicLista();
     fila->ultimo = inicLista();
 }
 
-persona primero(Fila * fila)
+persona primero(Fila * fila) /// retorla el primer elemento de la fila
 {
     persona dato = primeroLista(fila->primero);
 
@@ -16,7 +16,7 @@ persona primero(Fila * fila)
 }
 
 
-void agregar(Fila * fila,persona cliente)
+void agregar(Fila * fila,persona cliente) /// agrega a la fila
 {
     if(fila->primero == NULL && fila->ultimo == NULL)
     {
@@ -29,6 +29,32 @@ void agregar(Fila * fila,persona cliente)
     }
 }
 
+void agregarFilaXtipoCliente(Fila * fila,persona cliente) /// agrega a la fila x tipo de cliente
+{
+    if(fila->primero == NULL && fila->ultimo == NULL)
+    {
+        fila->primero = cargarDato(cliente);
+        fila->ultimo = cargarDato(cliente);
+    }
+    else
+    {
+        fila->primero = InsertarEnOrdenPorTipoCliente(fila->primero,cargarDato(cliente));
+    }
+}
+
+
+void agregarFilaXCantArticulos(Fila * fila,persona cliente) /// agrega a la fila x cantidad de articulos
+{
+    if(fila->primero == NULL && fila->ultimo == NULL)
+    {
+        fila->primero = cargarDato(cliente);
+        fila->ultimo = cargarDato(cliente);
+    }
+    else
+    {
+        fila->primero = InsertarEnOrdenPorCantArticulos(fila->primero,cargarDato(cliente));
+    }
+}
 void mostrarFila(Fila * fila)
 {
     printf("Inicio=>");

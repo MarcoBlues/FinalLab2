@@ -2,13 +2,12 @@
 #include <stdlib.h>
 #include "listasDobles.h"
 
-
-nodo2 * inicLista()
+nodo2 * inicLista() /// INICIALIZA LA LISTA
 {
     return NULL;
 }
 
-nodo2 * cargarDato(persona nuevo)
+nodo2 * cargarDato(persona nuevo) /// CREA Y CARGA EL NODO CON LOS DATOS
 {
 
     nodo2 * aux = (nodo2*)malloc(sizeof(nodo2));
@@ -29,7 +28,7 @@ nodo2 * cargarDato(persona nuevo)
     return aux;
 }
 
-nodo2 * agregarFinal(nodo2 * lista,nodo2 * nuevoNodo)
+nodo2 * agregarFinal(nodo2 * lista,nodo2 * nuevoNodo) /// AGREGAR AL FINAL DE LA FILA
 {
     if(lista == NULL)
     {
@@ -50,8 +49,7 @@ nodo2 * agregarFinal(nodo2 * lista,nodo2 * nuevoNodo)
     return lista;
 }
 
-
-void mostrar(nodo2 * lista)
+void mostrar(nodo2 * lista) /// MUESTRA UN NODO
 {
     printf("\n_________________________________\n");
     printf("Id: %d \n",(*lista).cliente.id);
@@ -63,8 +61,7 @@ void mostrar(nodo2 * lista)
 
 }
 
-
-void mostrarYrecorrer(nodo2 * lista)
+void mostrarYrecorrer(nodo2 * lista) /// RECORRE LA LISTA Y MUESTRA LOS NODOS QUE ALLA
 {
     if(lista != NULL)
     {
@@ -73,7 +70,7 @@ void mostrarYrecorrer(nodo2 * lista)
     }
 }
 
-nodo2 * borrarPrimero(nodo2 * lista)
+nodo2 * borrarPrimero(nodo2 * lista) /// BORRA EL PRIMER NODO
 {
     if(lista != NULL)
     {
@@ -88,7 +85,7 @@ nodo2 * borrarPrimero(nodo2 * lista)
     return lista;
 }
 
-nodo2 * borrarNodoCliente(nodo2 * lista,persona cliente)
+nodo2 * borrarNodoCliente(nodo2 * lista,persona cliente) /// BORRA UN NODO EN ESPECIFICO POR EL NOMBRE DEL CLIENTE
 {
     nodo2 * aBorrar;
     if(lista)
@@ -111,7 +108,7 @@ nodo2 * borrarNodoCliente(nodo2 * lista,persona cliente)
     return lista;
 }
 
-nodo2 * ultimoNodo(nodo2 * lista)
+nodo2 * ultimoNodo(nodo2 * lista) /// EL ULTIMO NODO
 {
     nodo2 * aux;
     if(lista != NULL)
@@ -129,44 +126,81 @@ nodo2 * ultimoNodo(nodo2 * lista)
     return aux;
 }
 
-persona primeroLista(nodo2 * lista)
+persona primeroLista(nodo2 * lista) /// RETORNA LA PRIMERA PERSONA DE LA LISTA
 {
     persona primero = lista->cliente;
 
     return primero;
 }
 
-persona agregar1Persona()
+nodo2 * InsertarEnOrdenPorTipoCliente(nodo2 * lista,nodo2 * nuevo)
 {
-        persona aux;
+    if(lista == NULL || lista->cliente.tipoCliente >= nuevo->cliente.tipoCliente)
+    {
+        nuevo->sig = lista;
+        if(lista != NULL)
+        {
+            lista->ant = nuevo;
+        }
+        lista = nuevo;
+    }
+    else
+    {
+        nodo2 * aux = lista;
+        nodo2 * ante = aux->ant;
+        while(aux && aux->cliente.tipoCliente <= nuevo->cliente.tipoCliente)
+        {
+            ante = aux;
+            aux = aux->sig;
+        }
+        if(aux != NULL)
+        {
+            nuevo->sig = aux;
+            nuevo->ant = ante;
+            aux->ant = nuevo;
+            ante->sig = nuevo;
+        }
+        else
+        {
+            ante->sig = nuevo;
+            nuevo->ant = ante;
+        }
+    }
+    return lista;
+}
 
-        printf("Ingrese id: ");
-        fflush(stdin);
-        scanf("%d",&aux.id);
-
-        printf("Ingrese nombre: ");
-        fflush(stdin);
-        scanf("%s",&aux.nombres);
-
-        printf("Ingrese apellido: ");
-        fflush(stdin);
-        scanf("%s",&aux.apellido);
-
-        printf("Ingrese tipo de cliente: ");
-        fflush(stdin);
-        scanf("%d",&aux.tipoCliente);
-
-        printf("Ingrese medio de pago: ");
-        fflush(stdin);
-        scanf("%d",&aux.medioPago);
-
-        printf("Ingrese la cantidad de articulos: ");
-        fflush(stdin);
-        scanf("%d",&aux.cantArticulos);
-
-        aux.eliminado = 0;
-        aux.tiempoEspera = 0;
-        aux.tiempoProcesado = 0;
-
-        return aux;
+nodo2 * InsertarEnOrdenPorCantArticulos(nodo2 * lista,nodo2 * nuevo)
+{
+    if(lista == NULL || lista->cliente.cantArticulos >= nuevo->cliente.cantArticulos)
+    {
+        nuevo->sig = lista;
+        if(lista != NULL)
+        {
+            lista->ant = nuevo;
+        }
+        lista = nuevo;
+    }
+    else
+    {
+        nodo2 * aux = lista;
+        nodo2 * ante = aux->ant;
+        while(aux && aux->cliente.cantArticulos <= nuevo->cliente.cantArticulos)
+        {
+            ante = aux;
+            aux = aux->sig;
+        }
+        if(aux != NULL)
+        {
+            nuevo->sig = aux;
+            nuevo->ant = ante;
+            aux->ant = nuevo;
+            ante->sig = nuevo;
+        }
+        else
+        {
+            ante->sig = nuevo;
+            nuevo->ant = ante;
+        }
+    }
+    return lista;
 }

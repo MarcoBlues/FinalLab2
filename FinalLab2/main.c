@@ -7,6 +7,18 @@
 void menuPasaje(Fila * filita,nodoArbol * raiz);
 void pasarDeArbolAFila(Fila * filita,nodoArbol * raiz,int x);
 
+void cantidadelementos (Fila * f) /// funcion que hice para saber si se pasaban la totalidad de elementos (39 elementos)
+{
+    int t=0;
+    nodo2 * a = f->primero;
+    while (a)
+    {
+        t++;
+        a = a->sig;
+
+    }
+    printf("\n\n Cant.Elementos: %d \n",t);
+}
 int main()
 {
     printf("Hello parcial Lab2\n");
@@ -14,12 +26,14 @@ int main()
 
     char nombreArchivo[] = {"archivoPersona.bin"};
     char nombre[] = {"li"};
-    raiz = copiarDatosArchiAarbol(raiz,nombreArchivo);
+    raiz = copiarDatosArchiAarbol(raiz,nombreArchivo); /// 39 elementos cargados
 
     Fila filita;
     inicfila(&filita);
     menuPasaje(&filita,raiz);
+
     mostrarFila(&filita);
+    cantidadelementos(&filita);
 
     /*
     int x = 28;

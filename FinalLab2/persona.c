@@ -141,3 +141,39 @@ void borrarPersonaArchivo(char nombre[], int id)
     fclose(archi);
     fclose(nuevoArchi);
 }
+
+persona agregar1Persona() /// AGREGAA
+{
+        persona aux;
+
+        printf("Ingrese id: ");
+        fflush(stdin);
+        scanf("%d",&aux.id);
+
+        printf("Ingrese nombre: ");
+        fflush(stdin);
+        scanf("%s",&aux.nombres);
+
+        printf("Ingrese apellido: ");
+        fflush(stdin);
+        scanf("%s",&aux.apellido);
+
+        printf("Ingrese tipo de cliente: ");
+        fflush(stdin);
+        scanf("%d",&aux.tipoCliente);
+
+        printf("Ingrese medio de pago: ");
+        fflush(stdin);
+        scanf("%d",&aux.medioPago);
+
+        printf("Ingrese la cantidad de articulos: ");
+        fflush(stdin);
+        scanf("%d",&aux.cantArticulos);
+
+        aux.eliminado = 0;
+        aux.tiempoEspera = 0;
+        aux.tiempoProcesado = 0;
+
+        return aux;
+}
+

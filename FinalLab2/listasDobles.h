@@ -19,12 +19,14 @@ nodo2 * agregarFinal(nodo2 * lista,nodo2 * nuevoNodo);
 
 void mostrarYrecorrer(nodo2 * lista);
 
-persona agregar1Persona();
+nodo2 * InsertarEnOrdenPorTipoCliente(nodo2 * lista,nodo2 * nuevo);
 
 nodo2 * borrarNodo(nodo2 * lista,char nombre[]);
 
 nodo2 * ultimoNodo(nodo2 * lista);
 
 nodo2 * borrarPrimero(nodo2 * lista);
+
+nodo2 * InsertarEnOrdenPorCantArticulos(nodo2 * lista,nodo2 * nuevo);
 
 #endif // LISTASDOBLES_H_INCLUDED
