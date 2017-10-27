@@ -106,3 +106,313 @@
 	"arbol_persona.h"
 	"Fila.h"
 
+1508557416 source:h:\marco\facultad\finallab2\arbol_persona.c
+	"stdlib.h"
+	"stdio.h"
+	"arbol_persona.h"
+
+1508548592 h:\marco\facultad\finallab2\arbol_persona.h
+	"persona.h"
+
+1508942343 h:\marco\facultad\finallab2\persona.h
+	<stdio.h>
+	<stdlib.h>
+
+1508946168 source:h:\marco\facultad\finallab2\fila.c
+	"Fila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1508946168 h:\marco\facultad\finallab2\fila.h
+	"stdbool.h"
+	"listasDobles.h"
+	"persona.h"
+
+1508946050 h:\marco\facultad\finallab2\listasdobles.h
+	"persona.h"
+
+1508946050 source:h:\marco\facultad\finallab2\listasdobles.c
+	<stdio.h>
+	<stdlib.h>
+	"listasDobles.h"
+
+1508962419 source:h:\marco\facultad\finallab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol_persona.h"
+	"Fila.h"
+
+1508942343 source:h:\marco\facultad\finallab2\persona.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"persona.h"
+
+1508962167 source:h:\marco\facultad\finallab2\arreglo_filas.c
+	"Arreglo_Filas.h"
+	<stdio.h>
+	<stdlib.h>
+
+1508959689 h:\marco\facultad\finallab2\arreglo_filas.h
+	"Fila.h"
+
+1508557416 source:e:\c\finallab2\arbol_persona.c
+	"stdlib.h"
+	"stdio.h"
+	"arbol_persona.h"
+
+1508548592 e:\c\finallab2\arbol_persona.h
+	"persona.h"
+
+1508942344 e:\c\finallab2\persona.h
+	<stdio.h>
+	<stdlib.h>
+
+1508946170 source:e:\c\finallab2\fila.c
+	"Fila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1508946170 e:\c\finallab2\fila.h
+	"stdbool.h"
+	"listasDobles.h"
+	"persona.h"
+
+1508946052 e:\c\finallab2\listasdobles.h
+	"persona.h"
+
+1508946052 source:e:\c\finallab2\listasdobles.c
+	<stdio.h>
+	<stdlib.h>
+	"listasDobles.h"
+
+1508978574 source:e:\c\finallab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol_persona.h"
+	"Fila.h"
+	"Arreglo_Filas.h"
+
+1508942344 source:e:\c\finallab2\persona.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"persona.h"
+
+1508978482 source:e:\c\finallab2\arreglo_filas.c
+	"Arreglo_Filas.h"
+	<stdio.h>
+	<stdlib.h>
+
+1508977626 e:\c\finallab2\arreglo_filas.h
+	"Fila.h"
+	"arbol_persona.h"
+
+1508557416 source:g:\c\finallab2\arbol_persona.c
+	"stdlib.h"
+	"stdio.h"
+	"arbol_persona.h"
+
+1508548592 g:\c\finallab2\arbol_persona.h
+	"persona.h"
+
+1508942344 g:\c\finallab2\persona.h
+	<stdio.h>
+	<stdlib.h>
+
+1509027868 source:g:\c\finallab2\arreglo_filas.c
+	"Arreglo_Filas.h"
+	<stdio.h>
+	<stdlib.h>
+
+1509026888 g:\c\finallab2\arreglo_filas.h
+	"Fila.h"
+	"arbol_persona.h"
+
+1508946170 g:\c\finallab2\fila.h
+	"stdbool.h"
+	"listasDobles.h"
+	"persona.h"
+
+1508946052 g:\c\finallab2\listasdobles.h
+	"persona.h"
+
+1508946170 source:g:\c\finallab2\fila.c
+	"Fila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1508946052 source:g:\c\finallab2\listasdobles.c
+	<stdio.h>
+	<stdlib.h>
+	"listasDobles.h"
+
+1509027752 source:g:\c\finallab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol_persona.h"
+	"Fila.h"
+	"Arreglo_Filas.h"
+
+1508942344 source:g:\c\finallab2\persona.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"persona.h"
+
+1508557416 source:f:\c\finallab2\arbol_persona.c
+	"stdlib.h"
+	"stdio.h"
+	"arbol_persona.h"
+
+1508548592 f:\c\finallab2\arbol_persona.h
+	"persona.h"
+
+1508942344 f:\c\finallab2\persona.h
+	<stdio.h>
+	<stdlib.h>
+
+1509060448 source:f:\c\finallab2\arreglo_filas.c
+	"Arreglo_Filas.h"
+	<stdio.h>
+	<stdlib.h>
+
+1509060448 f:\c\finallab2\arreglo_filas.h
+	"Fila.h"
+	"arbol_persona.h"
+
+1508946170 f:\c\finallab2\fila.h
+	"stdbool.h"
+	"listasDobles.h"
+	"persona.h"
+
+1508946052 f:\c\finallab2\listasdobles.h
+	"persona.h"
+
+1508946170 source:f:\c\finallab2\fila.c
+	"Fila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1508946052 source:f:\c\finallab2\listasdobles.c
+	<stdio.h>
+	<stdlib.h>
+	"listasDobles.h"
+
+1508942344 source:f:\c\finallab2\persona.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"persona.h"
+
+1509065212 source:f:\c\finallab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol_persona.h"
+	"Fila.h"
+	"Arreglo_Filas.h"
+
+1508557416 source:c:\users\usuario\desktop\finallab2\arbol_persona.c
+	"stdlib.h"
+	"stdio.h"
+	"arbol_persona.h"
+
+1508548592 c:\users\usuario\desktop\finallab2\arbol_persona.h
+	"persona.h"
+
+1508942344 c:\users\usuario\desktop\finallab2\persona.h
+	<stdio.h>
+	<stdlib.h>
+
+1508946170 source:c:\users\usuario\desktop\finallab2\fila.c
+	"Fila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1508946170 c:\users\usuario\desktop\finallab2\fila.h
+	"stdbool.h"
+	"listasDobles.h"
+	"persona.h"
+
+1508946052 c:\users\usuario\desktop\finallab2\listasdobles.h
+	"persona.h"
+
+1508946052 source:c:\users\usuario\desktop\finallab2\listasdobles.c
+	<stdio.h>
+	<stdlib.h>
+	"listasDobles.h"
+
+1508942344 source:c:\users\usuario\desktop\finallab2\persona.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"persona.h"
+
+1509060447 source:c:\users\usuario\desktop\finallab2\arreglo_filas.c
+	"Arreglo_Filas.h"
+	<stdio.h>
+	<stdlib.h>
+
+1509060447 c:\users\usuario\desktop\finallab2\arreglo_filas.h
+	"Fila.h"
+	"arbol_persona.h"
+
+1509063836 source:c:\users\usuario\desktop\finallab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol_persona.h"
+	"Fila.h"
+	"Arreglo_Filas.h"
+
+1508557416 source:c:\users\sercofin\documents\facultad\finallab2\arbol_persona.c
+	"stdlib.h"
+	"stdio.h"
+	"arbol_persona.h"
+
+1508548592 c:\users\sercofin\documents\facultad\finallab2\arbol_persona.h
+	"persona.h"
+
+1508942344 c:\users\sercofin\documents\facultad\finallab2\persona.h
+	<stdio.h>
+	<stdlib.h>
+
+1509136123 source:c:\users\sercofin\documents\facultad\finallab2\arreglo_filas.c
+	"Arreglo_Filas.h"
+	<stdio.h>
+	<stdlib.h>
+
+1509060448 c:\users\sercofin\documents\facultad\finallab2\arreglo_filas.h
+	"Fila.h"
+	"arbol_persona.h"
+
+1509135515 c:\users\sercofin\documents\facultad\finallab2\fila.h
+	"stdbool.h"
+	"listasDobles.h"
+	"persona.h"
+
+1509130455 c:\users\sercofin\documents\facultad\finallab2\listasdobles.h
+	"persona.h"
+
+1509135533 source:c:\users\sercofin\documents\facultad\finallab2\fila.c
+	"Fila.h"
+	<stdio.h>
+	<stdlib.h>
+
+1509134296 source:c:\users\sercofin\documents\facultad\finallab2\listasdobles.c
+	<stdio.h>
+	<stdlib.h>
+	"listasDobles.h"
+
+1508942344 source:c:\users\sercofin\documents\facultad\finallab2\persona.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"persona.h"
+
+1509136001 source:c:\users\sercofin\documents\facultad\finallab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbol_persona.h"
+	"Fila.h"
+	"Arreglo_Filas.h"
+

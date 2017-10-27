@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Arreglo_Filas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Arreglo_Filas.h" />
 		<Unit filename="Fila.c">
 			<Option compilerVar="CC" />
 		</Unit>

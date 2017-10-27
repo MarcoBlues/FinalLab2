@@ -55,6 +55,7 @@ void agregarFilaXCantArticulos(Fila * fila,persona cliente) /// agrega a la fila
         fila->primero = InsertarEnOrdenPorCantArticulos(fila->primero,cargarDato(cliente));
     }
 }
+
 void mostrarFila(Fila * fila)
 {
     printf("Inicio=>");
@@ -63,6 +64,17 @@ void mostrarFila(Fila * fila)
             mostrarYrecorrer(fila->primero);
             printf("<=Final");
         }
+}
+
+int cantidadelementos(Fila fila)
+{
+    int a;
+    if(fila.primero != NULL)
+    {
+        a = cantidadelementosLista(fila.primero);
+    }
+
+return a;
 }
 
 persona extraer(Fila * fila)

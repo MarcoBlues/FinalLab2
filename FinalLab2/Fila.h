@@ -17,6 +17,7 @@ void agregarFilaXCantArticulos(Fila * fila,persona cliente) ;
 persona extraer(Fila * fila); //saca un elemento del inicio de la lista
 void mostrarFila(Fila * fila);
 void leer(Fila * fila);
+int cantidadelementos(Fila f);
 persona primero(Fila * fila); //similar a tope
 bool filavacia(Fila * fila); //similar a pilavacia
 

@@ -25,6 +25,8 @@ nodo2 * borrarNodo(nodo2 * lista,char nombre[]);
 
 nodo2 * ultimoNodo(nodo2 * lista);
 
+int cantidadelementosLista(nodo2 * lista);
+
 nodo2 * borrarPrimero(nodo2 * lista);
 
 nodo2 * InsertarEnOrdenPorCantArticulos(nodo2 * lista,nodo2 * nuevo);

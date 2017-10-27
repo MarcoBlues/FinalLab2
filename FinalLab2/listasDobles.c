@@ -126,6 +126,19 @@ nodo2 * ultimoNodo(nodo2 * lista) /// EL ULTIMO NODO
     return aux;
 }
 
+int cantidadelementosLista(nodo2 * aux)
+{
+    int rta=0;
+    nodo2 * lista = aux;
+    while(lista != NULL)
+    {
+        rta++;
+        lista = lista->sig;
+    }
+
+    return rta;
+}
+
 persona primeroLista(nodo2 * lista) /// RETORNA LA PRIMERA PERSONA DE LA LISTA
 {
     persona primero = lista->cliente;
@@ -133,7 +146,7 @@ persona primeroLista(nodo2 * lista) /// RETORNA LA PRIMERA PERSONA DE LA LISTA
     return primero;
 }
 
-nodo2 * InsertarEnOrdenPorTipoCliente(nodo2 * lista,nodo2 * nuevo)/// inserta en la lista por el tipo de cliente
+nodo2 * InsertarEnOrdenPorTipoCliente(nodo2 * lista,nodo2 * nuevo)
 {
     if(lista == NULL || lista->cliente.tipoCliente >= nuevo->cliente.tipoCliente)
     {
@@ -169,7 +182,7 @@ nodo2 * InsertarEnOrdenPorTipoCliente(nodo2 * lista,nodo2 * nuevo)/// inserta en
     return lista;
 }
 
-nodo2 * InsertarEnOrdenPorCantArticulos(nodo2 * lista,nodo2 * nuevo) /// inserta en la lista en orden por la cantidad de articulos
+nodo2 * InsertarEnOrdenPorCantArticulos(nodo2 * lista,nodo2 * nuevo)
 {
     if(lista == NULL || lista->cliente.cantArticulos >= nuevo->cliente.cantArticulos)
     {
