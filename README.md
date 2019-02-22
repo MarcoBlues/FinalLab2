@@ -1,0 +1,1 @@
+Aplicacion desarrollada en el primer año de la carrera de programacion implementando los diferentes Algoritmos de Planificacion FCFS, SJF, SRTF, Round Robind en filas de supermercados para ver las operaciones computacionales en un entorno cotidiano.
